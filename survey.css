@@ -1,0 +1,41 @@
+body{
+    background-image: url(black-932213_1280.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+
+@font-face {
+    font-family: Bodoni;
+    src: url('fonts/Bodoni_Moda/BodoniModa-Italic-VariableFont_opsz\,wght.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+h1
+{
+    font-family:Bodoni;
+    font-size: 3rem;
+    color: whitesmoke;
+}
+body
+{
+    font-family:Bodoni;
+    font-size: 2rem;
+    color:white;
+    font-weight: bold;
+}
+.hover-button {
+    background:black;
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: transform 0.3s, background 0.3s; 
+}
+
+.hover-button:hover {
+    background: #8e44ad; 
+    transform: scale(1.1); 
+}
+

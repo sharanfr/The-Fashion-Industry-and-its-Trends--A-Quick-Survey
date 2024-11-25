@@ -1,0 +1,49 @@
+body{
+    background-image:url(texture.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+.navbar ul li::after{
+    content: '';
+    height: 2px;
+    width: 0;
+    background:antiquewhite;
+    position:absolute;
+    left: 0;
+    bottom: 0;
+    transition: 0.25s;
+}
+@font-face {
+    font-family: Bodoni;
+    src: url('fonts/Italiana/Italiana-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+h1
+{
+    font-family:Bodoni;
+    font-size: 3rem;
+    color:midnightblue;
+}
+body
+{
+    font-family:Bodoni;
+    font-size: 2rem;
+    color: black;
+    font-weight: bold;
+}
+.hover-button {
+    background:black;
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: transform 0.3s, background 0.3s; 
+}
+
+.hover-button:hover {
+    background:crimson; 
+    transform: scale(1.1); 
+}
